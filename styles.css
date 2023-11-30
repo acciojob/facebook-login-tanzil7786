@@ -1,59 +1,77 @@
- body {
-      background-color: #f6f6f6;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-    .main {
-      display: flex;
-    }
+.main {
+  display: flex;
+}
 
-    .left {
-      width: 450px;
-      margin-top: 70px;
-      display: inline-block;
-    }
+.left {
+  width: 450px;
+  margin-top: 70px;
+}
 
-    .form {
-      display: flex;
-      flex-direction: column;
-      width: 300px;
-      background-color: white;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px #ccc;
-      gap: 10px;
-    }
+.logo {
+  text-align: center;
+}
 
-    input {
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      padding: 10px;
-    }
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
 
-    button {
-      background-color: #1877f2;
-      border: none;
-      border-radius: 5px;
-      padding: 20px 20px;
-      width: 100%;
-      color: white;
-      cursor: pointer;
-    }
+.logo p {
+  margin-top: 10px;
+}
 
-    a {
-      text-decoration: none;
-      color: #1877f2;
-    }
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .signup {
-      background-color: #42b72a;
-      border: none;
-      border-radius: 5px;
-      padding: 10px 20px;
-      color: white;
-      cursor: pointer;
-    }
+.form {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 20px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.signup {
+  background-color: #42b72a;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
